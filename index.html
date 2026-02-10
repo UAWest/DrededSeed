@@ -144,13 +144,23 @@
             width: 100%;
             height: 220px;
             object-fit: cover;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f5f5f5;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
-            font-size: 80px;
             position: relative;
+            overflow: hidden;
+        }
+
+        .variety-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .variety-image-fallback {
+            font-size: 80px;
+            color: #667eea;
         }
 
         .variety-image img {
@@ -369,7 +379,7 @@
                 maturityDays: "70-80",
                 description: "Карликовий сорт висотою до 90см. Плоди яскраво-червоні, округлі, вагою 150-250г. Дуже врожайний, чудовий смак, підходить для вирощування в горщиках та на балконі.",
                 icon: "🍅",
-                imageSearch: "red tomatoes"
+                imageSearch: "red tomatoes,fresh"
             },
             {
                 id: 2,
@@ -391,7 +401,7 @@
                 maturityDays: "70-80",
                 description: "Компактний сорт висотою 70-90см. Плоди рожево-червоні, округло-сплощені, вагою 120-200г. Ніжний смак, м'ясиста текстура, ідеальний для свіжих салатів.",
                 icon: "🍅",
-                imageSearch: "pink tomatoes"
+                imageSearch: "pink tomatoes,ripe"
             },
             {
                 id: 4,
